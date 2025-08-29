@@ -32,9 +32,9 @@ const social: Social = [
     link: "https://www.linkedin.com/in/sanushifan",
   },
   // {
-  //   name: "Threads",
-  //   icon: "threads",
-  //   link: "https://www.threads.com/@once_ui",
+  //   name: "instagram",
+  //   icon: "instagram",
+  //   link: " ",
   // },
   {
     name: "Email",
@@ -66,7 +66,7 @@ const home: Home = {
   subline: (
     <>
       I'm Sanushifan, a MERN Stack Developer crafting fast,
-       full-stack web apps
+      full-stack web apps
       <br /> and building passion projects after hours..
     </>
   ),
@@ -94,56 +94,58 @@ const about: About = {
     description: (
       <>
         Sanushifan is a MERN Stack Developer with a passion for turning complex technical challenges
-        into clean, scalable, and user-friendly web solutions. His work spans dynamic front-end 
+        into clean, scalable, and user-friendly web solutions. His work spans dynamic front-end
         interfaces, robust backend systems, and the intersection of modern web technologies and intuitive
-         user experiences.
+        user experiences.
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "",
+    // title: "Work Experience",
+
     experiences: [
-      {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
-        achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
+      // {
+      //   company: "FLY",
+      //   timeframe: "2022 - Present",
+      //   role: "Senior Design Engineer",
+      //   achievements: [
+      //     <>
+      //       Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
+      //       engagement and 30% faster load times.
+      //     </>,
+      //     <>
+      //       Spearheaded the integration of AI tools into design workflows, enabling designers to
+      //       iterate 50% faster.
+      //     </>,
+      //   ],
+      //   images: [
+      //     // optional: leave the array empty if you don't want to display images
+      //     {
+      //       src: "/images/projects/project-01/cover-01.jpg",
+      //       alt: "Once UI Project",
+      //       width: 16,
+      //       height: 9,
+      //     },
+      //   ],
+      // },
+      // {
+      //   company: "Creativ3",
+      //   timeframe: "2018 - 2022",
+      //   role: "Lead Designer",
+      //   achievements: [
+      //     <>
+      //       Developed a design system that unified the brand across multiple platforms, improving
+      //       design consistency by 40%.
+      //     </>,
+      //     <>
+      //       Led a cross-functional team to launch a new product line, contributing to a 15% increase
+      //       in overall company revenue.
+      //     </>,
+      //   ],
+      //   images: [],
+      // },
     ],
   },
   studies: {
@@ -164,62 +166,137 @@ const about: About = {
     display: true, // set to false to hide this section
     title: "Technical skills",
     skills: [
+      //Languages
       {
-        title: "Figma",
-        description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
-        ),
+        title: "Languages",
+        description: (<> </>),
         tags: [
+          {
+            name: "JavaScript (ES6+)",
+            icon: "javascript",
+          },
+          {
+            name: "HTML5",
+            icon: "html5",
+          },
+          {
+            name: "CSS3",
+            icon: "css3",
+          },
+          {
+            name: "Node.js",
+            icon: "nodeJs",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
+      // Frameworks
+      {
+        title: "Frameworks",
+        description: (<> </>),
+
+        tags: [
+          {
+            name: "React.js",
+            icon: "react",
+          },
+          {
+            name: "Express.js",
+            icon: "express",
+          },
+          {
+            name: "Bootstrap",
+            icon: "bootstrap",
+          },
+          {
+            name: "Tailwind CSS",
+            icon: "tailwindCss",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      },
+      //Databases
+      {
+        title: "Databases",
+        description: (<> </>),
+        tags: [
+          {
+            name: "MongoDB",
+            icon: "mongodb",
+          },
+          {
+            name: "MySQL",
+            icon: "mySql",
+          },
+        ],
+        images: [],
+      },
+      //Tools 
+      {
+        title: "Tools",
+        description: (<> </>),
+        tags: [
+          {
+            name: "Git",
+            icon: "git",
+          },
+          {
+            name: "GitHub",
+            icon: "github",
+          },
+          {
+            name: "Postman",
+            icon: "postman",
+          },
           {
             name: "Figma",
             icon: "figma",
           },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "VS Code",
+            icon: "vscode",
           },
         ],
+        images: [],
       },
+      // Cloud & Deployment 
       {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
+        title: " Cloud & Deployment",
+        description: (<> </>),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
+            name: "AWS ( EC2, S3, Lambda basics )",
+            icon: "aws  ",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "Nginx",
+            icon: "nginx",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "Netlify",
+            icon: "netlify",
+          },
+          {
+            name: "Vercel",
+            icon: "vercel",
+          },
+          {
+            name: "Render",
+            icon: "render",
           },
         ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },  
+        images: [],
+      },
+
     ],
   },
 };
