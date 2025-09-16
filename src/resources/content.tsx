@@ -4,7 +4,7 @@ import { Line, Logo, Row, Text } from "@once-ui-system/core";
 const person: Person = {
   firstName: "Sanu",
   lastName: "Shifan",
-  name: `Sanu Shifan`,
+  name: `Sanu Shifan kc`,
   role: "MERN Stack Developer",
   avatar: "/images/avatar.jpg",
   email: "sanushifankc@gmail.com",
@@ -183,10 +183,6 @@ const about: About = {
             name: "CSS3",
             icon: "css3",
           },
-          {
-            name: "Node.js",
-            icon: "nodeJs",
-          },
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
@@ -200,17 +196,14 @@ const about: About = {
       },
       // Frameworks
       {
-        title: "Frameworks",
+        title: "Frontend",
         description: (<> </>),
 
         tags: [
+         
           {
             name: "React.js",
             icon: "react",
-          },
-          {
-            name: "Express.js",
-            icon: "express",
           },
           {
             name: "Bootstrap",
@@ -226,9 +219,17 @@ const about: About = {
       },
       //Databases
       {
-        title: "Databases",
+        title: "Backend",
         description: (<> </>),
         tags: [
+           {
+            name: "Node.js",
+            icon: "nodeJs",
+          },
+          {
+            name: "Express.js",
+            icon: "express",
+          },
           {
             name: "MongoDB",
             icon: "mongodb",
