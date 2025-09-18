@@ -113,7 +113,7 @@ export default function About() {
             vertical="center"
             marginBottom="32"
           >
-            {about.calendar.display && (
+            {about.resume.display && (
               <Row
                 fitWidth
                 border="brand-alpha-medium"
@@ -128,10 +128,10 @@ export default function About() {
                   backdropFilter: "blur(var(--static-space-1))",
                 }}
               >
-                <Icon paddingLeft="12" name="calendar" onBackground="brand-weak" />
-                <Row paddingX="8">Schedule a call</Row>
+                <Icon paddingLeft="12" name="paper" onBackground="brand-weak" />
+                <Row paddingX="8">Download Resume</Row>
                 <IconButton
-                  href={about.calendar.link}
+                  href={about.resume.link}
                   data-border="rounded"
                   variant="secondary"
                   icon="chevronRight"

@@ -84,9 +84,10 @@ const about: About = {
   avatar: {
     display: true,
   },
-  calendar: {
+  resume: {
     display: true,
-    link: "https://cal.com",
+    link: "https://drive.google.com/uc?export=download&id=14jxS2u86pvC0evG_uh1XR9o_pGKy1C1U",
+  
   },
   intro: {
     display: true,

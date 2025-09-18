@@ -46,6 +46,8 @@ import {
 
 } from "react-icons/si";
 
+import { IoIosPaper } from "react-icons/io";
+
 import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads ,FaAws } from "react-icons/fa6";
 
 import { VscVscode } from "react-icons/vsc";
@@ -93,7 +95,8 @@ export const iconLibrary: Record<string, IconType> = {
   netlify:SiNetlify,
   nginx:SiNginx,
   vercel:SiVercel,
-  render:SiRender
+  render:SiRender,
+  paper:IoIosPaper,
 };
 
 export type IconLibrary = typeof iconLibrary;
