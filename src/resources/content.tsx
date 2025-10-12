@@ -14,8 +14,8 @@ const person: Person = {
 
 const newsletter: Newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  title: <>Let's build something amazing together </>,
+  description: <>Have a project idea or collaboration in mind? Let's connect!</>,
 };
 
 const social: Social = [
@@ -61,7 +61,7 @@ const home: Home = {
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/work/Gadgetory_E-commerce_platform",
   },
   subline: (
     <>
