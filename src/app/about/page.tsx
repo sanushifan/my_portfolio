@@ -132,6 +132,8 @@ export default function About() {
                 <Row paddingX="8">Download Resume</Row>
                 <IconButton
                   href={about.resume.link}
+                  // download={about.resume.link}
+
                   data-border="rounded"
                   variant="secondary"
                   icon="chevronRight"

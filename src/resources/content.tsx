@@ -86,8 +86,8 @@ const about: About = {
   },
   resume: {
     display: true,
-    link: "https://drive.google.com/uc?export=download&id=14jxS2u86pvC0evG_uh1XR9o_pGKy1C1U",
-  
+    link: "/documents/autoCV.pdf",
+    
   },
   intro: {
     display: true,
