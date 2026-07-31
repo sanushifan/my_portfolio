@@ -3,7 +3,7 @@
 
 **1. Clone the repository**
 ```
-git clone add your git repo
+git clone https://github.com/sanushifan/my_portfolio.git
 ```
 
 **2. Install dependencies**
