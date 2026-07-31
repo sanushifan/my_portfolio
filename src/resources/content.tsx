@@ -5,7 +5,7 @@ const person: Person = {
   firstName: "Sanu",
   lastName: "Shifan",
   name: `Sanu Shifan kc`,
-  role: "MERN Stack Developer",
+  role: "Full-Stack Developer",
   avatar: "/images/avatar.jpg",
   email: "sanushifankc@gmail.com",
   location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -49,7 +49,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building scalable full-stack web applications</>,
   featured: {
     display: true,
     title: (
@@ -65,9 +65,9 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Sanushifan, a MERN Stack Developer crafting fast,
-      full-stack web apps
-      <br /> and building passion projects after hours..
+      I'm Sanu Shifan, a Full-Stack SaaS Developer building scalable
+      multi-tenant platforms
+      <br /> with the MERN Stack, NestJS, Redis, Docker, and AWS.
     </>
   ),
 };
@@ -86,80 +86,74 @@ const about: About = {
   },
   resume: {
     display: true,
-    link: "/documents/autoCV.pdf",
-    
+    link: "/documents/Sanushifan_resume.pdf",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Sanushifan is a MERN Stack Developer with a passion for turning complex technical challenges
-        into clean, scalable, and user-friendly web solutions. His work spans dynamic front-end
-        interfaces, robust backend systems, and the intersection of modern web technologies and intuitive
-        user experiences.
+        Sanu Shifan is a self-taught Full-Stack SaaS Developer with experience building scalable
+        multi-tenant SaaS applications using the MERN Stack, NestJS, Redis, Docker, and modern
+        backend architectures. Currently working at NIFAMA Technologies developing production-ready
+        SaaS platforms including restaurant ordering systems, campaign generation platforms, and
+        scalable e-commerce infrastructure. Skilled in backend architecture, authentication systems,
+        REST APIs, dashboard systems, frontend optimization, and cloud deployment using AWS EC2 and NGINX.
       </>
     ),
   },
   work: {
-    display: true, // set to false to hide this section
-    title: "",
-    // title: "Work Experience",
-
+    display: true,
+    title: "Work Experience",
     experiences: [
-      // {
-      //   company: "FLY",
-      //   timeframe: "2022 - Present",
-      //   role: "Senior Design Engineer",
-      //   achievements: [
-      //     <>
-      //       Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-      //       engagement and 30% faster load times.
-      //     </>,
-      //     <>
-      //       Spearheaded the integration of AI tools into design workflows, enabling designers to
-      //       iterate 50% faster.
-      //     </>,
-      //   ],
-      //   images: [
-      //     // optional: leave the array empty if you don't want to display images
-      //     {
-      //       src: "/images/projects/project-01/cover-01.jpg",
-      //       alt: "Once UI Project",
-      //       width: 16,
-      //       height: 9,
-      //     },
-      //   ],
-      // },
-      // {
-      //   company: "Creativ3",
-      //   timeframe: "2018 - 2022",
-      //   role: "Lead Designer",
-      //   achievements: [
-      //     <>
-      //       Developed a design system that unified the brand across multiple platforms, improving
-      //       design consistency by 40%.
-      //     </>,
-      //     <>
-      //       Led a cross-functional team to launch a new product line, contributing to a 15% increase
-      //       in overall company revenue.
-      //     </>,
-      //   ],
-      //   images: [],
-      // },
+      {
+        company: "NIFAMA Technologies Pvt. Ltd.",
+        timeframe: "November 2025 – Present",
+        role: "Full-Stack Developer",
+        achievements: [
+          <>Working on scalable SaaS applications with a focus on backend architecture, multi-tenant systems, and dashboard ecosystems.</>,
+          <>Contributed to MenuBex, a restaurant SaaS platform featuring digital menu systems, QR ordering, tenant management, and customizable dashboards.</>,
+          <>Developed features for FrameBex, a SaaS campaign poster generation platform with dynamic template systems and user customization workflows.</>,
+          <>Currently developing a scalable SaaS e-commerce platform inspired by Shopify architecture with tenant isolation and admin management systems.</>,
+          <>Implemented JWT authentication, REST API architecture, and worked with AWS EC2, NGINX, Docker, and Redis.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Freelance",
+        timeframe: "June 2025 – Present",
+        role: "Full-Stack Developer",
+        achievements: [
+          <>Built production-ready MERN applications with responsive UI systems and scalable backend architecture.</>,
+          <>Developed authentication systems, admin dashboards, payment integrations, and real-time features.</>,
+          <>Deployed applications using AWS, Vercel, Render, and Netlify.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Brototype",
+        timeframe: "August 2024 – May 2025",
+        role: "Bootcamp Trainee",
+        achievements: [
+          <>Trained in full-stack web development using React.js, Node.js, and the modern JavaScript ecosystem.</>,
+          <>Built practical MERN applications and collaborated using GitHub workflows including pull requests and code reviews.</>,
+          <>Worked on real-world projects including AI-assisted and chat-based applications.</>,
+        ],
+        images: [],
+      },
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
-    title: "Studies",
+    display: true,
+    title: "Education",
     institutions: [
       {
-        name: "Higher Secondary Education",
-        description: <>Completed Higher Secondary education in Computer Science.</>,
+        name: "Baithul Izza Arts and Science College, Kerala",
+        description: <>Bachelor of Computer Applications (BCA) – University of Calicut, 2021 – 2024.</>,
       },
       {
-        name: "University of Calicut",
-        description: <>Studied Bachelor of Computer Application.</>,
+        name: "Higher Secondary Education – Computer Science",
+        description: <>Kerala State Board, 2019 – 2021.</>,
       },
     ],
   },
@@ -167,134 +161,72 @@ const about: About = {
     display: true, // set to false to hide this section
     title: "Technical skills",
     skills: [
-      //Languages
       {
         title: "Languages",
         description: (<> </>),
         tags: [
-          {
-            name: "JavaScript (ES6+)",
-            icon: "javascript",
-          },
-          {
-            name: "HTML5",
-            icon: "html5",
-          },
-          {
-            name: "CSS3",
-            icon: "css3",
-          },
+          { name: "JavaScript (ES6+)", icon: "javascript" },
+          { name: "TypeScript", icon: "typescript" },
+          { name: "HTML5", icon: "html5" },
+          { name: "CSS3", icon: "css3" },
         ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          // {
-          //   src: "/images/projects/project-01/cover-04.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
-        ],
+        images: [],
       },
-      // Frameworks
       {
         title: "Frontend",
         description: (<> </>),
-
         tags: [
-         
-          {
-            name: "React.js",
-            icon: "react",
-          },
-          {
-            name: "Bootstrap",
-            icon: "bootstrap",
-          },
-          {
-            name: "Tailwind CSS",
-            icon: "tailwindCss",
-          },
+          { name: "React.js", icon: "react" },
+          { name: "Next.js", icon: "nextjs" },
+          { name: "Tailwind CSS", icon: "tailwindCss" },
+          { name: "Bootstrap", icon: "bootstrap" },
         ],
-        // optional: leave the array empty if you don't want to display images
         images: [],
       },
-      //Databases
       {
         title: "Backend",
         description: (<> </>),
         tags: [
-           {
-            name: "Node.js",
-            icon: "nodeJs",
-          },
-          {
-            name: "Express.js",
-            icon: "express",
-          },
-          {
-            name: "MongoDB",
-            icon: "mongodb",
-          },
-          {
-            name: "MySQL",
-            icon: "mySql",
-          },
+          { name: "Node.js", icon: "nodeJs" },
+          { name: "NestJS", icon: "nestjs" },
+          { name: "Express.js", icon: "express" },
+          { name: "REST APIs", icon: "api" },
+          { name: "JWT Authentication", icon: "jwt" },
+          { name: "Redis", icon: "redis" },
         ],
         images: [],
       },
-      //Tools 
+      {
+        title: "Databases",
+        description: (<> </>),
+        tags: [
+          { name: "MongoDB", icon: "mongodb" },
+          { name: "MySQL", icon: "mySql" },
+        ],
+        images: [],
+      },
+      {
+        title: "DevOps & Deployment",
+        description: (<> </>),
+        tags: [
+          { name: "AWS EC2", icon: "aws" },
+          { name: "NGINX", icon: "nginx" },
+          { name: "Docker", icon: "docker" },
+          { name: "Vercel", icon: "vercel" },
+          { name: "Render", icon: "render" },
+          { name: "Netlify", icon: "netlify" },
+        ],
+        images: [],
+      },
       {
         title: "Tools",
         description: (<> </>),
         tags: [
-          {
-            name: "Git",
-            icon: "git",
-          },
-          {
-            name: "GitHub",
-            icon: "github",
-          },
-          {
-            name: "Postman",
-            icon: "postman",
-          },
-          {
-            name: "Figma",
-            icon: "figma",
-          },
-          {
-            name: "VS Code",
-            icon: "vscode",
-          },
-        ],
-        images: [],
-      },
-      // Cloud & Deployment 
-      {
-        title: " Cloud & Deployment",
-        description: (<> </>),
-        tags: [
-          {
-            name: "AWS ( EC2, S3, Lambda basics )",
-            icon: "aws  ",
-          },
-          {
-            name: "Nginx",
-            icon: "nginx",
-          },
-          {
-            name: "Netlify",
-            icon: "netlify",
-          },
-          {
-            name: "Vercel",
-            icon: "vercel",
-          },
-          {
-            name: "Render",
-            icon: "render",
-          },
+          { name: "Git", icon: "git" },
+          { name: "GitHub", icon: "github" },
+          { name: "Postman", icon: "postman" },
+          { name: "Figma", icon: "figma" },
+          { name: "VS Code", icon: "vscode" },
         ],
         images: [],
       },

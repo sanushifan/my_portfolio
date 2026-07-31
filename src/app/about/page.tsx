@@ -90,17 +90,26 @@ export default function About() {
             horizontal="center"
           >
             <Avatar src={person.avatar} size="xl" />
-            <Row gap="8" vertical="center">
-              <Icon onBackground="accent-weak" name="globe" />
-              {person.location}
-            </Row>
-            {person.languages && person.languages.length > 0 && (
-              <Row wrap gap="8">
-                {person.languages.map((language, index) => (
-                  <Tag key={index} size="l">
-                    {language}
-                  </Tag>
-                ))}
+            <Column horizontal="center" gap="4">
+              <Text variant="heading-strong-m">{person.name}</Text>
+              <Text variant="body-default-s" onBackground="brand-weak">
+                {person.role}
+              </Text>
+            </Column>
+            {social.length > 0 && (
+              <Row gap="8" wrap horizontal="center">
+                {social.map(
+                  (item) =>
+                    item.link && (
+                      <IconButton
+                        key={item.name}
+                        href={item.link}
+                        icon={item.icon}
+                        variant="secondary"
+                        size="m"
+                      />
+                    ),
+                )}
               </Row>
             )}
           </Column>

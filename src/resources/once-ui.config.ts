@@ -24,8 +24,8 @@ const routes: RoutesConfig = {
 };
 
 const display: DisplayConfig = {
-  location: true,
-  time: true,
+  location: false,
+  time: false,
   themeSwitcher: true,
 };
 
@@ -186,10 +186,10 @@ const mailchimp: MailchimpConfig = {
 // default schema data
 const schema: SchemaConfig = {
   logo: "",
-  type: "Organization",
-  name: "Once UI",
+  type: "Person",
+  name: "Sanu Shifan",
   description: home.description,
-  email: "lorant@once-ui.com",
+  email: "sanushifankc@gmail.com",
 };
 
 // social links
